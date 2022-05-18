@@ -1,0 +1,11 @@
+.row td{
+    padding: 30px;
+}
+
+.btn {
+    display: flex;
+}
+
+.btn button:first-child {
+    margin-right: 10px;
+}
