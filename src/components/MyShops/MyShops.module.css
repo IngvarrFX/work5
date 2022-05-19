@@ -9,15 +9,17 @@
     padding: 20px;
     background-color: white;
     border-radius: 5px;
+    width: 80%;
 }
 
 .tableBlock table {
+    display: inline-block;
     overflow-x:auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: auto;
+    width: 100%;
 }
-table {
-    width: 70%;
 
-}
 .title {
     font-size: 25px;
     font-weight: bold;

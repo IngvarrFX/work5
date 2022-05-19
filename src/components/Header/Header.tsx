@@ -1,9 +1,11 @@
 import React from "react";
 import styles from "./Header.module.css";
 import {useLocation} from "react-router-dom";
+import {ReactComponent as Messages} from "../../icons/messege.svg";
+import {ReactComponent as UserIcon} from "../../icons/userIcon.svg";
 
 export const Header = () => {
-    const breadcrumbs: {[key: string]: string} = {
+    const breadcrumbs: { [key: string]: string } = {
         "/main": "Главная",
         "/myshops": "Мои магазины",
         "/promo": "Промоматериалы",
@@ -22,9 +24,12 @@ export const Header = () => {
                 {breadcrumbs[location.pathname]}
             </div>
             <div className={styles.rightBlock}>
-                <div className={styles.alert}></div>
+                <div className={styles.alert}>
+                    <Messages/>
+                </div>
                 <div className={styles.profile}>
-                    <div className={styles.image}></div>
+                    {/*<div className={styles.image}></div>*/}
+                    <UserIcon/>
                     <div className={styles.name}>Igor Nurov</div>
                 </div>
             </div>

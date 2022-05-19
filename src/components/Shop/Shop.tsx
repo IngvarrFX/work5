@@ -12,7 +12,7 @@ export const Shop = (props: ShopPropsType) => {
     return (<tr className={styles.row}>
             <td>{shop.number}</td>
             <td>{shop.name}</td>
-            <td>{shop.address}</td>
+            <a href={shop.address}><td>{shop.address}</td></a>
             <td>
                 <div className={styles.btn}>
                     <Button title={"Редактировать"} className={"edit"}/>

@@ -10,7 +10,8 @@ export const MyShops = () => {
         <div className={styles.wrapper}>
             <Button title={"Создать свой магазин"} className={"add"}/>
             <div className={styles.title}>Управление магазинами</div>
-                <table className={styles.tableBlock}>
+            <div className={styles.tableBlock}>
+                <table>
                     <tr className={styles.tableHeader}>
                         <th>№</th>
                         <th>Название</th>
@@ -22,6 +23,7 @@ export const MyShops = () => {
                         )
                     })}
                 </table>
+            </div>
         </div>
     );
 };

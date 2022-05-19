@@ -22,19 +22,24 @@
 .alert {
     width: 60px;
     height: 60px;
-    background-color: whitesmoke;
+    background-color: transparent;
     border-radius: 5px;
     margin-right: 15px;
 }
 
 .profile {
-    height: 60px;
+    height: 65px;
     width: 250px;
     border-radius: 5px;
-    background-color: whitesmoke;
+    background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.profile svg {
+    width: 40px;
+    height: 40px;
 }
 
 .name {
@@ -45,5 +50,4 @@
     width: 30px;
     height: 30px;
     border-radius: 50px;
-    background-color: cornflowerblue;
 }

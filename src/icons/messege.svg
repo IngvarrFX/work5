@@ -1,0 +1,21 @@
+<svg id="messege" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="66" viewBox="0 0 66 66">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #d4d4d4;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: #e42626;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <rect id="Прямоугольник_скругл._углы_1_копия" data-name="Прямоугольник, скругл. углы 1 копия" class="cls-1" x="0.5" y="0.5" width="65" height="65" rx="5" ry="5"/>
+  <image id="envelope_1_" data-name="envelope (1)" x="22.5" y="24.5" width="22" height="18" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAASCAYAAABfJS4tAAABKklEQVQ4jbXTvSuFcRTA8Y+bzaBMlMlEIWQgzMrbencMGA2KG4O8/AuK1WAWZaZIedmUVbEwSoYbnfzU7Xrn8a1neH7nnG/nOef5VRQKhQbMoFY2XGO1ElvozEj6SncOHRlLg5YQn/yD+CjEU3jIUPqI6RCfYQi3GUjvMBBTCPEmDtGMnT9Id5MjXJshzuMU9anzCdz/QBi5k6m2Lu0sn0vBxhg45rGBtvT+FZHTjnXM4hhNUZMrKYx/ehEHqEAvFlB8R15MsT48YR/LyaFc/EpXWug4ltCDi5L4RTqL2BjO40KUSyrfaF+owhqGMYpW9KfYHmqwjcGPRvVex6VE4WX67Kv0LKSzD6WfdVxKdVrq/Ddyv93xr/lXcWw1a85jxiOYS7cmC26w8gxUlDijjIKHwgAAAABJRU5ErkJggg=="/>
+  <circle id="Эллипс_2" data-name="Эллипс 2" class="cls-2" cx="45" cy="23" r="3.5"/>
+</svg>
