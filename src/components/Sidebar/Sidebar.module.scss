@@ -1,0 +1,49 @@
+.sidebar {
+  grid-area: nav;
+  width: 300px;
+  height: 100%;
+  margin-left: 30px;
+
+  .logo {
+    margin: 40px 0 40px 0;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+
+    & a {
+      color: gray;
+      text-decoration: none;
+      cursor: pointer;
+      position: relative;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      height: 50px;
+    }
+
+    & svg {
+      width: 20px;
+      height: 20px;
+      margin-right: 20px;
+    }
+
+    .Active {
+      color: black !important;
+
+      &:before {
+        content: '';
+        width: 5px;
+        height: 50px;
+        background-color: cornflowerblue;
+        position: absolute;
+        left: -30px;
+      }
+
+      & svg {
+        fill: cornflowerblue;
+      }
+    }
+  }
+}
