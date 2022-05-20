@@ -12,11 +12,11 @@ export const Shop = (props: ShopPropsType) => {
     return (<tr className={styles.row}>
             <td>{shop.number}</td>
             <td>{shop.name}</td>
-            <a href={shop.address}><td>{shop.address}</td></a>
+            <td>{shop.address}</td>
             <td>
                 <div className={styles.btn}>
-                    <Button title={"Редактировать"} className={"edit"}/>
-                    <Button title={"Редактировать"} className={"remove"}/>
+                    <Button title={"Редактировать"} className={"edit"} onClick={()=>{}}/>
+                    <Button title={"Редактировать"} className={"remove"} onClick={()=>{}}/>
                 </div>
             </td>
         </tr>
