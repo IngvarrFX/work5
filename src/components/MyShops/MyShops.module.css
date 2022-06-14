@@ -3,17 +3,18 @@
 }
 
 .wrapper button {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .tableBlock {
-    padding: 20px;
+    padding: 40px;
+    padding-right: 0;
     background-color: white;
     border-radius: 5px;
-    width: 80%;
+    width: 60%;
 }
 
 .tableBlock table {
-    display: inline-block;
+    display: block;
     overflow-x:auto;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: auto;
@@ -29,5 +30,4 @@
 .tableHeader th {
     font-weight: bold;
     text-align: start;
-    padding: 30px;
 }
