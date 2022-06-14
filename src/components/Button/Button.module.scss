@@ -1,0 +1,55 @@
+@import "../../../styles/vars.scss";
+
+button {
+  background-color: transparent;
+  color: $colorWhite;
+  border: none;
+  border-radius: $borderRadius;
+  padding: 10px 20px 10px 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: $colorBtnPrimary;
+}
+
+.secondary {
+  background-color: $colorBtnGray;
+}
+
+.success {
+  background-color: $colorBtnGreen;
+}
+
+.add {
+  background-color: $colorBtnGreen;
+
+  &::before {
+    content: "+";
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+  }
+}
+
+.remove {
+  background-color: $colorBtnGray;
+  & svg {
+    position: absolute;
+    left: 10px;
+  }
+}
+
+.edit {
+  background-color: $colorBtnGreen;
+  & svg {
+    position: absolute;
+    left: 10px;
+  }
+}
