@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Header.module.css";
+import styles from "./Header.module.scss";
 import {useLocation} from "react-router-dom";
 import {ReactComponent as Messages} from "../../icons/messege.svg";
 import {ReactComponent as UserIcon} from "../../icons/userIcon.svg";
