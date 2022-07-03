@@ -1,13 +1,13 @@
-.wrapper{
+.wrapper {
     margin-top: 10px;
 }
 
 .wrapper button {
     margin-bottom: 20px;
 }
+
 .tableBlock {
     padding: 40px;
-    padding-right: 0;
     background-color: white;
     border-radius: 5px;
     width: 60%;
@@ -15,7 +15,7 @@
 
 .tableBlock table {
     display: block;
-    overflow-x:auto;
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: auto;
     width: 100%;
